@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="So a:     "
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/edt_soA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="So b:     "
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/edt_soB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#9ad729"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btn_cong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="congHaiSo"
+        android:text="Cong 2 so"/>
+    <Button
+        android:id="@+id/btn_tru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="truHaiSo"
+        android:text="Tru 2 so"/>
+    <Button
+        android:id="@+id/btn_nhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="nhanHaiSo"
+        android:text="Nhan 2 so"/>
+    <Button
+        android:id="@+id/btn_chia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="chiaHaiSo"
+        android:text="Chia 2 so"/>
+    <Button
+        android:id="@+id/btn_ucln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="uocChungLonNhat"
+        android:text="uoc chung lon nhat"/>
+    <Button
+        android:id="@+id/btn_thoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Thoat"
+        android:text="Thoat"/>
+</LinearLayout>
